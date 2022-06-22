@@ -11,7 +11,7 @@ def test_get():
 
  r = client.get("/" )
  assert r.status_code == 200
- assert r.json() == {"result":"Welcome to FastAPI.The app will predict whether income is less than or greater than 50k"}
+ assert r.json() == "Welcome to FastAPI.The app will predict whether income is less than or greater than 50k"
 
 
 

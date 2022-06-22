@@ -46,9 +46,9 @@ model = train_model(X_train, y_train)
 
 #Inference of the model
 y_pred = inference(model,X_test)
-print(test.iloc[4,:])
-print(np.nonzero(y_pred))
-print(y_pred[4])
+#print(test.iloc[4,:])
+#print(np.nonzero(y_pred))
+#print(y_pred[4])
 
 precision,recall,fbeta = compute_model_metrics(y_test,y_pred)
 

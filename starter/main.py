@@ -45,11 +45,12 @@ cat_features = [
 
 @app.get("/")
 async def intro():
-  return "Welcome to FastAPI"
+  return {"result":"Welcome to FastAPI"}
 
 
 @app.post("/item")
 async def predict(item:Modelclass):
+  print("Inside_tthe_get_function")
   item = item.dict()
   df = pd.DataFrame( {
                      "age" : [item["age"]],
@@ -70,9 +71,8 @@ async def predict(item:Modelclass):
                    )
   X_test, y_test, encoder_test, lb_test = process_data(df, categorical_features=cat_features, training=False,encoder = encoder, lb=lb)
   y_pred = inference(model,X_test)
-  print("y_test",y_test)
   print("y_predict",y_pred)
-  return {"result":1}
+  return {"result":y_pred.tolist()}
 
 
 

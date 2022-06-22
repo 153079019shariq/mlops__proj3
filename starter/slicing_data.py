@@ -22,6 +22,7 @@ def data_slice():
   
   df = pd.read_csv("data/census.csv")
   _, test = train_test_split(df, test_size=0.20)
+  print(f"Shape_of_test_data {test.shape}")
   model = pickle.load(open( os.path.join("model",'trainedmodel.pkl'), 'rb'))
   lb  = pickle.load(open( os.path.join("model",'label_bin.pkl'), 'rb'))
   encoder = pickle.load(open( os.path.join("model",'encoder.pkl'), 'rb'))

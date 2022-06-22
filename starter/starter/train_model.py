@@ -1,6 +1,7 @@
 # Script to train machine learning model.
 import os
 import pandas as pd
+import numpy as np
 import pickle
 from sklearn.model_selection import train_test_split
 
@@ -11,7 +12,7 @@ from ml.model import train_model,inference,compute_model_metrics
 data = pd.read_csv("../data/census.csv")
 
 # Optional enhancement, use K-fold cross validation instead of a train-test split.
-train, test = train_test_split(data, test_size=0.20)
+train, test = train_test_split(data, test_size=0.20,random_state=10)
 
 
 
@@ -45,6 +46,9 @@ model = train_model(X_train, y_train)
 
 #Inference of the model
 y_pred = inference(model,X_test)
+print(test.iloc[4,:])
+print(np.nonzero(y_pred))
+print(y_pred[4])
 
 precision,recall,fbeta = compute_model_metrics(y_test,y_pred)
 

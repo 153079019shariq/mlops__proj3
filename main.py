@@ -45,7 +45,7 @@ cat_features = [
 
 @app.get("/")
 async def intro():
-  return {"result":"Welcome to FastAPI"}
+  return {"result":"Welcome to FastAPI.The app will predictt whether income is less than or greater than 50k"}
 
 
 @app.post("/item")
@@ -71,8 +71,9 @@ async def predict(item:Modelclass):
                    )
   X_test, y_test, encoder_test, lb_test = process_data(df, categorical_features=cat_features, training=False,encoder = encoder, lb=lb)
   y_pred = inference(model,X_test)
+  result = lb.inverse_transform(y_pred)
   print("y_predict",y_pred)
-  return {"result":y_pred.tolist()}
+  return {"result":result.tolist()}
 
 
 

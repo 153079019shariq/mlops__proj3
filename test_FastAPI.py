@@ -11,7 +11,7 @@ def test_get():
 
  r = client.get("/" )
  assert r.status_code == 200
- assert r.json() == { "result":"Welcome to FastAPI"}
+ assert r.json() == {"result":"Welcome to FastAPI.The app will predictt whether income is less than or greater than 50k"}
 
 
 
@@ -36,7 +36,7 @@ def test_post_negative():
     #r= requests.post("http://127.0.0.1:8000/item",data =data)
     r = client.post("/item", data=data)
     assert r.status_code == 200
-    assert r.json() == { "result":[0]}
+    assert r.json() == { "result":['<=50K']}
     print(r.json())
 
 
@@ -61,7 +61,7 @@ def test_post_positive():
     #r= requests.post("http://127.0.0.1:8000/item",data =data)
     r = client.post("/item", data=data)
     assert r.status_code == 200
-    assert r.json() == { "result":[1]}
+    assert r.json() == { "result":['>50K']}
     print(r.json())
 
 

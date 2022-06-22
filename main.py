@@ -45,7 +45,7 @@ cat_features = [
 
 @app.get("/")
 async def intro():
-  return {"result":"Welcome to FastAPI.The app will predictt whether income is less than or greater than 50k"}
+  return {"result":"Welcome to FastAPI.The app will predict whether income is less than or greater than 50k"}
 
 
 @app.post("/item")

@@ -29,9 +29,9 @@ class Modelclass(BaseModel):
 
 app = FastAPI()
 
-model = pickle.load(open( os.path.join("model",'trainedmodel.pkl'), 'rb'))
-lb  = pickle.load(open( os.path.join("model",'label_bin.pkl'), 'rb'))
-encoder = pickle.load(open( os.path.join("model",'encoder.pkl'), 'rb'))
+model = pickle.load(open( os.path.join(os.getcwd(),"model",'trainedmodel.pkl'), 'rb'))
+lb  = pickle.load(open(os.path.join(os.getcwd(),"model",'label_bin.pkl'), 'rb'))
+encoder = pickle.load(open(os.path.join(os.getcwd(),"model",'encoder.pkl'), 'rb'))
 cat_features = [
       "workclass",
       "education",

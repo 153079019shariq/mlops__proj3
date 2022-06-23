@@ -1,6 +1,8 @@
 import pytest
+import pickle
+import os
 import pandas as pd
-
+from sklearn.linear_model import LogisticRegression
 @pytest.fixture(scope="session")
 def data():
   df = pd.read_csv("data/census.csv")
@@ -30,9 +32,20 @@ def test_percentage_missing(data):
   for i in range(len(percent)):
     assert percent.loc[i,"percent_missing"]<10
 
-#val = data()
-#test_data_shape(val)
-#check_percentage_missing(val)
-#test_no_of_categorical(val)
 
 
+def test_model():
+
+    """ Model should be Logistic Regression as it was used for training """
+    
+    model = pickle.load(open( os.path.join(os.getcwd(),"model",'trainedmodel.pkl'), 'rb'))
+    assert isinstance(model,LogisticRegression) 
+
+
+"""
+val = data()
+test_model()
+test_data_shape(val)
+test_percentage_missing(val)
+test_no_of_categorical(val)
+"""

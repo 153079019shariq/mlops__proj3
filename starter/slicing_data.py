@@ -2,9 +2,9 @@
 import os
 import pandas as pd
 import pickle
-from starter.ml.data import process_data
-from starter.ml.model import train_model,inference,compute_model_metrics
-from sklearn.model_selection import train_test_split
+from ml.data import process_data
+from ml.model import train_model,inference,compute_model_metrics
+from train_model import test
 
 
 def data_slice():
@@ -20,9 +20,6 @@ def data_slice():
       "native-country",
   ]
   
-  df = pd.read_csv("data/census.csv")
-  _, test = train_test_split(df, test_size=0.20)
-  print(f"Shape_of_test_data {test.shape}")
   model = pickle.load(open( os.path.join("model",'trainedmodel.pkl'), 'rb'))
   lb  = pickle.load(open( os.path.join("model",'label_bin.pkl'), 'rb'))
   encoder = pickle.load(open( os.path.join("model",'encoder.pkl'), 'rb'))

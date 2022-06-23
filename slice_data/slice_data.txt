@@ -1,100 +1,101 @@
-Feature workclass is having value Private, precision  0.70, recall 0.27, fbeta 0.39
-Feature workclass is having value Federal-gov, precision  0.68, recall 0.25, fbeta 0.37
-Feature workclass is having value Self-emp-inc, precision  0.90, recall 0.30, fbeta 0.45
-Feature workclass is having value State-gov, precision  0.71, recall 0.24, fbeta 0.36
-Feature workclass is having value ?, precision  0.46, recall 0.32, fbeta 0.38
-Feature workclass is having value Self-emp-not-inc, precision  0.75, recall 0.28, fbeta 0.41
-Feature workclass is having value Local-gov, precision  0.61, recall 0.25, fbeta 0.36
-Feature workclass is having value Without-pay, precision  1.00, recall 1.00, fbeta 1.00
-Feature education is having value Assoc-acdm, precision  0.76, recall 0.28, fbeta 0.41
-Feature education is having value 5th-6th, precision  0.33, recall 0.25, fbeta 0.29
-Feature education is having value Assoc-voc, precision  0.58, recall 0.21, fbeta 0.31
-Feature education is having value Some-college, precision  0.62, recall 0.22, fbeta 0.33
-Feature education is having value HS-grad, precision  0.56, recall 0.23, fbeta 0.33
-Feature education is having value Doctorate, precision  1.00, recall 0.28, fbeta 0.44
-Feature education is having value Bachelors, precision  0.79, recall 0.30, fbeta 0.44
-Feature education is having value Prof-school, precision  0.97, recall 0.40, fbeta 0.57
-Feature education is having value 9th, precision  0.00, recall 0.00, fbeta 0.00
-Feature education is having value 10th, precision  0.44, recall 0.27, fbeta 0.33
-Feature education is having value Masters, precision  0.87, recall 0.31, fbeta 0.46
-Feature education is having value 7th-8th, precision  0.29, recall 0.22, fbeta 0.25
-Feature education is having value 12th, precision  1.00, recall 0.10, fbeta 0.18
-Feature education is having value 11th, precision  0.50, recall 0.44, fbeta 0.47
-Feature education is having value 1st-4th, precision  0.00, recall 1.00, fbeta 0.00
-Feature education is having value Preschool, precision  1.00, recall 1.00, fbeta 1.00
-Feature marital-status is having value Married-civ-spouse, precision  0.81, recall 0.26, fbeta 0.39
-Feature marital-status is having value Divorced, precision  0.43, recall 0.30, fbeta 0.35
-Feature marital-status is having value Separated, precision  0.45, recall 0.31, fbeta 0.37
-Feature marital-status is having value Never-married, precision  0.42, recall 0.43, fbeta 0.43
-Feature marital-status is having value Married-AF-spouse, precision  1.00, recall 0.00, fbeta 0.00
-Feature marital-status is having value Widowed, precision  0.45, recall 0.29, fbeta 0.36
-Feature marital-status is having value Married-spouse-absent, precision  0.60, recall 0.33, fbeta 0.43
-Feature occupation is having value Tech-support, precision  0.77, recall 0.32, fbeta 0.46
-Feature occupation is having value Other-service, precision  0.19, recall 0.14, fbeta 0.16
-Feature occupation is having value Craft-repair, precision  0.56, recall 0.20, fbeta 0.30
-Feature occupation is having value Exec-managerial, precision  0.86, recall 0.30, fbeta 0.45
-Feature occupation is having value Adm-clerical, precision  0.56, recall 0.30, fbeta 0.39
-Feature occupation is having value ?, precision  0.46, recall 0.32, fbeta 0.38
-Feature occupation is having value Prof-specialty, precision  0.82, recall 0.30, fbeta 0.43
-Feature occupation is having value Sales, precision  0.78, recall 0.26, fbeta 0.39
-Feature occupation is having value Machine-op-inspct, precision  0.38, recall 0.16, fbeta 0.22
-Feature occupation is having value Transport-moving, precision  0.65, recall 0.19, fbeta 0.29
-Feature occupation is having value Protective-serv, precision  0.60, recall 0.20, fbeta 0.31
-Feature occupation is having value Handlers-cleaners, precision  0.40, recall 0.36, fbeta 0.38
-Feature occupation is having value Farming-fishing, precision  0.50, recall 0.26, fbeta 0.34
-Feature occupation is having value Priv-house-serv, precision  1.00, recall 1.00, fbeta 1.00
-Feature occupation is having value Armed-Forces, precision  1.00, recall 1.00, fbeta 1.00
-Feature relationship is having value Husband, precision  0.82, recall 0.26, fbeta 0.39
-Feature relationship is having value Unmarried, precision  0.45, recall 0.37, fbeta 0.41
-Feature relationship is having value Not-in-family, precision  0.45, recall 0.35, fbeta 0.40
-Feature relationship is having value Own-child, precision  0.32, recall 0.43, fbeta 0.36
-Feature relationship is having value Wife, precision  0.78, recall 0.26, fbeta 0.39
-Feature relationship is having value Other-relative, precision  0.33, recall 0.14, fbeta 0.20
-Feature race is having value White, precision  0.70, recall 0.27, fbeta 0.39
-Feature race is having value Black, precision  0.67, recall 0.26, fbeta 0.38
-Feature race is having value Asian-Pac-Islander, precision  0.79, recall 0.28, fbeta 0.42
-Feature race is having value Other, precision  0.50, recall 0.40, fbeta 0.44
-Feature race is having value Amer-Indian-Eskimo, precision  0.50, recall 0.40, fbeta 0.44
-Feature sex is having value Male, precision  0.76, recall 0.27, fbeta 0.39
-Feature sex is having value Female, precision  0.48, recall 0.30, fbeta 0.37
-Feature native-country is having value France, precision  1.00, recall 0.00, fbeta 0.00
-Feature native-country is having value Mexico, precision  0.50, recall 0.25, fbeta 0.33
-Feature native-country is having value United-States, precision  0.70, recall 0.27, fbeta 0.39
-Feature native-country is having value England, precision  0.33, recall 0.20, fbeta 0.25
-Feature native-country is having value Italy, precision  1.00, recall 0.00, fbeta 0.00
-Feature native-country is having value South, precision  1.00, recall 1.00, fbeta 1.00
-Feature native-country is having value India, precision  1.00, recall 0.33, fbeta 0.50
-Feature native-country is having value El-Salvador, precision  1.00, recall 0.50, fbeta 0.67
-Feature native-country is having value ?, precision  0.73, recall 0.39, fbeta 0.51
-Feature native-country is having value Germany, precision  1.00, recall 0.22, fbeta 0.36
-Feature native-country is having value Jamaica, precision  1.00, recall 0.00, fbeta 0.00
-Feature native-country is having value Canada, precision  1.00, recall 0.17, fbeta 0.29
-Feature native-country is having value Portugal, precision  1.00, recall 0.00, fbeta 0.00
-Feature native-country is having value Poland, precision  1.00, recall 0.00, fbeta 0.00
-Feature native-country is having value Philippines, precision  0.80, recall 0.33, fbeta 0.47
-Feature native-country is having value China, precision  0.00, recall 0.00, fbeta 0.00
-Feature native-country is having value Cuba, precision  1.00, recall 0.00, fbeta 0.00
-Feature native-country is having value Dominican-Republic, precision  1.00, recall 1.00, fbeta 1.00
-Feature native-country is having value Honduras, precision  1.00, recall 1.00, fbeta 1.00
-Feature native-country is having value Puerto-Rico, precision  1.00, recall 0.67, fbeta 0.80
-Feature native-country is having value Trinadad&Tobago, precision  1.00, recall 1.00, fbeta 1.00
-Feature native-country is having value Vietnam, precision  1.00, recall 1.00, fbeta 1.00
-Feature native-country is having value Japan, precision  1.00, recall 0.45, fbeta 0.62
-Feature native-country is having value Ecuador, precision  1.00, recall 0.50, fbeta 0.67
-Feature native-country is having value Haiti, precision  1.00, recall 0.00, fbeta 0.00
-Feature native-country is having value Hong, precision  1.00, recall 0.00, fbeta 0.00
-Feature native-country is having value Greece, precision  0.00, recall 0.00, fbeta 0.00
-Feature native-country is having value Cambodia, precision  1.00, recall 0.00, fbeta 0.00
-Feature native-country is having value Guatemala, precision  1.00, recall 1.00, fbeta 1.00
-Feature native-country is having value Columbia, precision  1.00, recall 1.00, fbeta 1.00
-Feature native-country is having value Taiwan, precision  1.00, recall 0.20, fbeta 0.33
-Feature native-country is having value Peru, precision  1.00, recall 1.00, fbeta 1.00
-Feature native-country is having value Outlying-US(Guam-USVI-etc), precision  1.00, recall 1.00, fbeta 1.00
-Feature native-country is having value Laos, precision  1.00, recall 1.00, fbeta 1.00
-Feature native-country is having value Iran, precision  1.00, recall 0.33, fbeta 0.50
-Feature native-country is having value Scotland, precision  1.00, recall 1.00, fbeta 1.00
-Feature native-country is having value Hungary, precision  1.00, recall 0.00, fbeta 0.00
-Feature native-country is having value Nicaragua, precision  1.00, recall 1.00, fbeta 1.00
-Feature native-country is having value Ireland, precision  1.00, recall 1.00, fbeta 1.00
-Feature native-country is having value Yugoslavia, precision  1.00, recall 0.00, fbeta 0.00
-Feature native-country is having value Thailand, precision  1.00, recall 1.00, fbeta 1.00
+Feature workclass having value Private is having precision  0.71, recall 0.24, fbeta 0.36
+Feature workclass having value ? is having precision  0.48, recall 0.40, fbeta 0.44
+Feature workclass having value Federal-gov is having precision  0.84, recall 0.22, fbeta 0.34
+Feature workclass having value Local-gov is having precision  0.67, recall 0.26, fbeta 0.37
+Feature workclass having value Self-emp-not-inc is having precision  0.79, recall 0.33, fbeta 0.47
+Feature workclass having value State-gov is having precision  0.79, recall 0.33, fbeta 0.46
+Feature workclass having value Self-emp-inc is having precision  0.95, recall 0.33, fbeta 0.49
+Feature workclass having value Never-worked is having precision  1.00, recall 1.00, fbeta 1.00
+Feature workclass having value Without-pay is having precision  1.00, recall 1.00, fbeta 1.00
+Feature education having value 12th is having precision  0.67, recall 0.33, fbeta 0.44
+Feature education having value HS-grad is having precision  0.58, recall 0.21, fbeta 0.31
+Feature education having value 11th is having precision  0.60, recall 0.50, fbeta 0.55
+Feature education having value Some-college is having precision  0.58, recall 0.18, fbeta 0.28
+Feature education having value 7th-8th is having precision  0.22, recall 0.17, fbeta 0.19
+Feature education having value Prof-school is having precision  0.95, recall 0.44, fbeta 0.60
+Feature education having value Masters is having precision  0.83, recall 0.26, fbeta 0.39
+Feature education having value Assoc-acdm is having precision  0.86, recall 0.21, fbeta 0.34
+Feature education having value Bachelors is having precision  0.89, recall 0.31, fbeta 0.46
+Feature education having value 5th-6th is having precision  0.00, recall 0.00, fbeta 0.00
+Feature education having value 10th is having precision  0.12, recall 0.06, fbeta 0.08
+Feature education having value 9th is having precision  0.00, recall 0.00, fbeta 0.00
+Feature education having value Doctorate is having precision  0.94, recall 0.40, fbeta 0.56
+Feature education having value Assoc-voc is having precision  0.71, recall 0.23, fbeta 0.34
+Feature education having value 1st-4th is having precision  1.00, recall 0.00, fbeta 0.00
+Feature education having value Preschool is having precision  1.00, recall 1.00, fbeta 1.00
+Feature marital-status having value Never-married is having precision  0.54, recall 0.38, fbeta 0.45
+Feature marital-status having value Married-civ-spouse is having precision  0.81, recall 0.24, fbeta 0.37
+Feature marital-status having value Separated is having precision  0.57, recall 0.40, fbeta 0.47
+Feature marital-status having value Divorced is having precision  0.51, recall 0.31, fbeta 0.39
+Feature marital-status having value Widowed is having precision  0.89, recall 0.42, fbeta 0.57
+Feature marital-status having value Married-spouse-absent is having precision  0.44, recall 0.67, fbeta 0.53
+Feature marital-status having value Married-AF-spouse is having precision  1.00, recall 0.00, fbeta 0.00
+Feature occupation having value Craft-repair is having precision  0.52, recall 0.16, fbeta 0.25
+Feature occupation having value Other-service is having precision  0.30, recall 0.17, fbeta 0.22
+Feature occupation having value Handlers-cleaners is having precision  0.21, recall 0.20, fbeta 0.21
+Feature occupation having value Machine-op-inspct is having precision  0.62, recall 0.27, fbeta 0.37
+Feature occupation having value ? is having precision  0.48, recall 0.40, fbeta 0.44
+Feature occupation having value Prof-specialty is having precision  0.88, recall 0.33, fbeta 0.48
+Feature occupation having value Transport-moving is having precision  0.62, recall 0.27, fbeta 0.38
+Feature occupation having value Exec-managerial is having precision  0.92, recall 0.29, fbeta 0.45
+Feature occupation having value Sales is having precision  0.74, recall 0.22, fbeta 0.34
+Feature occupation having value Adm-clerical is having precision  0.54, recall 0.15, fbeta 0.24
+Feature occupation having value Farming-fishing is having precision  0.56, recall 0.38, fbeta 0.45
+Feature occupation having value Tech-support is having precision  0.86, recall 0.22, fbeta 0.35
+Feature occupation having value Priv-house-serv is having precision  0.00, recall 1.00, fbeta 0.00
+Feature occupation having value Protective-serv is having precision  0.88, recall 0.20, fbeta 0.33
+Feature occupation having value Armed-Forces is having precision  1.00, recall 1.00, fbeta 1.00
+Feature relationship having value Own-child is having precision  0.35, recall 0.38, fbeta 0.36
+Feature relationship having value Wife is having precision  0.86, recall 0.17, fbeta 0.28
+Feature relationship having value Unmarried is having precision  0.50, recall 0.37, fbeta 0.43
+Feature relationship having value Not-in-family is having precision  0.61, recall 0.36, fbeta 0.45
+Feature relationship having value Husband is having precision  0.81, recall 0.25, fbeta 0.38
+Feature relationship having value Other-relative is having precision  0.27, recall 0.60, fbeta 0.37
+Feature race having value White is having precision  0.75, recall 0.26, fbeta 0.39
+Feature race having value Black is having precision  0.56, recall 0.23, fbeta 0.32
+Feature race having value Other is having precision  0.67, recall 0.33, fbeta 0.44
+Feature race having value Asian-Pac-Islander is having precision  0.74, recall 0.33, fbeta 0.45
+Feature race having value Amer-Indian-Eskimo is having precision  0.60, recall 0.60, fbeta 0.60
+Feature sex having value Male is having precision  0.77, recall 0.26, fbeta 0.39
+Feature sex having value Female is having precision  0.58, recall 0.26, fbeta 0.36
+Feature native-country having value United-States is having precision  0.73, recall 0.26, fbeta 0.39
+Feature native-country having value ? is having precision  0.75, recall 0.29, fbeta 0.42
+Feature native-country having value Poland is having precision  0.50, recall 0.25, fbeta 0.33
+Feature native-country having value Japan is having precision  1.00, recall 0.20, fbeta 0.33
+Feature native-country having value El-Salvador is having precision  1.00, recall 0.33, fbeta 0.50
+Feature native-country having value Portugal is having precision  1.00, recall 1.00, fbeta 1.00
+Feature native-country having value Germany is having precision  1.00, recall 0.29, fbeta 0.44
+Feature native-country having value Taiwan is having precision  1.00, recall 0.50, fbeta 0.67
+Feature native-country having value Mexico is having precision  1.00, recall 0.00, fbeta 0.00
+Feature native-country having value Iran is having precision  1.00, recall 0.25, fbeta 0.40
+Feature native-country having value China is having precision  1.00, recall 0.50, fbeta 0.67
+Feature native-country having value Philippines is having precision  1.00, recall 0.22, fbeta 0.36
+Feature native-country having value Guatemala is having precision  0.00, recall 0.00, fbeta 0.00
+Feature native-country having value Vietnam is having precision  0.00, recall 1.00, fbeta 0.00
+Feature native-country having value Cuba is having precision  1.00, recall 0.00, fbeta 0.00
+Feature native-country having value Dominican-Republic is having precision  1.00, recall 1.00, fbeta 1.00
+Feature native-country having value Thailand is having precision  1.00, recall 1.00, fbeta 1.00
+Feature native-country having value France is having precision  1.00, recall 0.00, fbeta 0.00
+Feature native-country having value Italy is having precision  1.00, recall 0.17, fbeta 0.29
+Feature native-country having value Greece is having precision  0.50, recall 1.00, fbeta 0.67
+Feature native-country having value Puerto-Rico is having precision  0.50, recall 1.00, fbeta 0.67
+Feature native-country having value South is having precision  0.50, recall 0.67, fbeta 0.57
+Feature native-country having value Outlying-US(Guam-USVI-etc) is having precision  1.00, recall 1.00, fbeta 1.00
+Feature native-country having value Haiti is having precision  1.00, recall 0.00, fbeta 0.00
+Feature native-country having value Jamaica is having precision  1.00, recall 1.00, fbeta 1.00
+Feature native-country having value Trinadad&Tobago is having precision  1.00, recall 1.00, fbeta 1.00
+Feature native-country having value Yugoslavia is having precision  1.00, recall 0.33, fbeta 0.50
+Feature native-country having value Nicaragua is having precision  1.00, recall 0.00, fbeta 0.00
+Feature native-country having value England is having precision  1.00, recall 0.11, fbeta 0.20
+Feature native-country having value India is having precision  0.75, recall 0.43, fbeta 0.55
+Feature native-country having value Scotland is having precision  1.00, recall 1.00, fbeta 1.00
+Feature native-country having value Canada is having precision  0.67, recall 0.29, fbeta 0.40
+Feature native-country having value Hong is having precision  1.00, recall 1.00, fbeta 1.00
+Feature native-country having value Ecuador is having precision  1.00, recall 1.00, fbeta 1.00
+Feature native-country having value Peru is having precision  1.00, recall 1.00, fbeta 1.00
+Feature native-country having value Laos is having precision  1.00, recall 0.00, fbeta 0.00
+Feature native-country having value Cambodia is having precision  1.00, recall 0.00, fbeta 0.00
+Feature native-country having value Columbia is having precision  1.00, recall 1.00, fbeta 1.00
+Feature native-country having value Honduras is having precision  1.00, recall 1.00, fbeta 1.00
+Feature native-country having value Hungary is having precision  1.00, recall 1.00, fbeta 1.00
+Feature native-country having value Ireland is having precision  1.00, recall 0.50, fbeta 0.67

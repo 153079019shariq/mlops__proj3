@@ -35,7 +35,7 @@ def data_slice():
         X_test, y_test, encoder_test, lb_test = process_data(df_temp, categorical_features=cat_features, label="salary", training=False,encoder = encoder, lb=lb)
         y_pred = inference(model,X_test)
         precision,recall,fbeta = compute_model_metrics(y_test,y_pred)
-        stri = f"Feature {feature} is having value {val}" +", precision  {:.2f}".format(precision) + ", recall {:.2f}".format(recall) +", fbeta {:.2f}".format(fbeta)
+        stri = f"Feature {feature} having value {val} is having" +" precision  {:.2f}".format(precision) + ", recall {:.2f}".format(recall) +", fbeta {:.2f}".format(fbeta)
         print(stri) 
         f.write(stri)
         f.write("\n")
